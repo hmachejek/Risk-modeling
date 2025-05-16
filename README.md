@@ -21,9 +21,10 @@ risk_modeling/
 │ ├── hazard/ # Wind input rasters
 │ └── exposure/ # Population raster
 ├── scripts/
-│ └── 01_hazard_processingl.R # Wind speed rasters processing script
-│ └── 02_exposure_processing.R # Population raster processing script
+│ ├── 01_hazard_processing.R # Wind speed rasters processing script
+│ ├── 02_exposure_processing.R # Population raster processing script
 │ └── 03_risk_model.R # Full risk processing script
+└── README.md
 
 
 # Packages
