@@ -11,7 +11,7 @@ This project simulates storm hazard exposure and resulting risk across Europe us
 
 ## File Structure
 ```
-risk_modeling/
+
 ├── risk/
 │ ├── risk_map_2020_2024.tif # Raw risk raster
 │ ├── risk_map_2020_2024_norm.tif # Normalized (0–1)
