@@ -10,6 +10,7 @@ This project simulates storm hazard exposure and resulting risk across Europe us
 - Risk values normalized, classified into 3 levels: **Low**, **Medium**, **High**
 
 #️ File Structure
+
 risk_modeling/
 ├── risk/
 │ ├── risk_map_2020_2024.tif # Raw risk raster
