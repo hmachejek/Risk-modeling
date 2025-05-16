@@ -5,7 +5,7 @@ This project simulates storm hazard exposure and resulting risk across Europe us
 # Project Overview
 
 - Hazard: Average wind speed (2020–2024) from [TerraClimate](http://www.climatologylab.org/terraclimate.html)
-- Exposure: Population density from [Eurostat GEOSTAT 2021 1km grid](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/population-distribution-demography/geostat)
+- Exposure: Population density from [Eurostat GEOSTAT 2021 1km grid](https://ec.europa.eu/eurostat/web/gisco/geodata/population-distribution/geostat)
 - Risk = Hazard × Exposure
 - Risk values normalized, classified into 3 levels: **Low**, **Medium**, **High**
 
