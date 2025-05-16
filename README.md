@@ -9,8 +9,8 @@ This project simulates storm hazard exposure and resulting risk across Europe us
 - Risk = Hazard × Exposure
 - Risk values normalized, classified into 3 levels: **Low**, **Medium**, **High**
 
-#️ File Structure
-
+## 📁 File Structure
+```
 risk_modeling/
 ├── risk/
 │ ├── risk_map_2020_2024.tif # Raw risk raster
@@ -25,7 +25,7 @@ risk_modeling/
 │ ├── 02_exposure_processing.R # Population raster processing script
 │ └── 03_risk_model.R # Full risk processing script
 └── README.md
-
+```
 
 # Packages
 
