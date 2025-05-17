@@ -16,7 +16,7 @@ This project simulates storm hazard exposure and resulting risk across Europe us
 │ ├── risk_map_2020_2024.tif # Raw risk raster
 │ ├── risk_map_2020_2024_norm.tif # Normalized (0–1)
 │ ├── risk_map_2020_2024_classes.tif # Classified risk raster
-│ └── risk_map_2020_2024_classified.png # Final map
+│ └── risk_map_2020_2024_final.png # Final map
 ├── data/
 │ ├── hazard/ # Wind input rasters
 │ └── exposure/ # Population raster
@@ -31,7 +31,7 @@ Not all input rasters are available in the repository due to the file size. If n
 
 - `terra` for raster math and export
 - `ggplot2` for map design
-- `rnaturalearth` for basemaps
+- `rnaturalearth` and `rnaturalearthdata` for basemaps
 - `sf` for vector borders
 
 
